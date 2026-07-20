@@ -1,5 +1,6 @@
 import React from 'react';
 import Gallery from '@/components/Gallery';
+import BookingForm from '@/components/BookingForm';
 
 interface TourService {
   num: string;
@@ -119,6 +120,8 @@ export default function Home(): React.JSX.Element {
           </div>
         </div>
       </section>
+
+      <BookingForm /> {/* Taruh form di sini */}
 
     </div>
   );
