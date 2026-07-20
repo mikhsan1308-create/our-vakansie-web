@@ -7,13 +7,14 @@ export default function Navbar(): React.JSX.Element {
     <nav className="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
         {/* LOGO BRAND */}
-        <Link href="/" className="flex flex-col">
-          <Image 
-              src="/logo-brand-white.jpeg" // Mengarah langsung ke folder public
-              alt="Our Vakansie Logo"
-              width={48}            // Sesuaikan ukuran lebar logo (pixel)
-              height={48}           // Sesuaikan ukuran tinggi logo (pixel)
-              className="object-contain"
+        <Link href="/" className="flex items-center">
+            <img 
+                src="/logo-brand-white.png" 
+                alt="Our Vakansie Logo"
+                width="200"            
+                height="80"           
+                // Kita besarkan w- nya (lebar total file gambar) agar lingkaran di dalamnya kelihatan jelas
+                className="w-32 h-auto md:w-44 object-contain"
             />
         </Link>
 
