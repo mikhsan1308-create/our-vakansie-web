@@ -5,7 +5,14 @@ export default function Footer(): React.JSX.Element {
     <footer id="contact" className="bg-slate-950 text-slate-400 pt-16 pb-8 border-t border-slate-900">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
         <div>
-          <h3 className="text-white font-black text-xl mb-4">Our <span className="text-orange-500">Vakansie</span></h3>
+          <img 
+                src="/logo-brand-white.png" 
+                alt="Our Vakansie Logo"
+                width="200"            
+                height="80"           
+                // Kita besarkan w- nya (lebar total file gambar) agar lingkaran di dalamnya kelihatan jelas
+                className="w-32 h-auto md:w-44 object-contain"
+            />
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">PT. GUSTI UTAMA SEJAHTERA</p>
           <p className="text-sm leading-relaxed">
             "be more, vacation more" — Bersama vakansie, setiap perjalanan bukan hanya sekadar liburan, tetapi sebuah cerita indah yang akan selalu dikenang.
