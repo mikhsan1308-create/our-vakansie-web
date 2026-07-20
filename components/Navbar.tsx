@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar(): React.JSX.Element {
   return (
@@ -7,12 +8,13 @@ export default function Navbar(): React.JSX.Element {
       <div className="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
         {/* LOGO BRAND */}
         <Link href="/" className="flex flex-col">
-          <span className="font-black text-2xl text-slate-900 tracking-tight">
-            Our <span className="text-orange-500">Vakansie</span>
-          </span>
-          <span className="text-[9px] text-slate-500 font-semibold tracking-wider -mt-0.5 uppercase">
-            PT. Gusti Utama Sejahtera
-          </span>
+          <Image 
+              src="/logo-brand-white.jpeg" // Mengarah langsung ke folder public
+              alt="Our Vakansie Logo"
+              width={48}            // Sesuaikan ukuran lebar logo (pixel)
+              height={48}           // Sesuaikan ukuran tinggi logo (pixel)
+              className="object-contain"
+            />
         </Link>
 
         {/* MENU */}
