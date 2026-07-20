@@ -37,6 +37,24 @@ export default function Footer(): React.JSX.Element {
             </li>
             <li>📞 Phone: 0811-2111-2023</li>
             <li>✉️ Email: ourvakansie@gmail.com</li>
+            <li className="flex items-center gap-2">
+                <span>📸</span> 
+                <a href="https://instagram.com/ourvakansie" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">
+                    Instagram: @ourvakansie
+                </a>
+                </li>
+                <li className="flex items-center gap-2">
+                <span>🎵</span> 
+                <a href="https://tiktok.com/@ourvakansie" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">
+                    TikTok: @ourvakansie
+                </a>
+                </li>
+                <li className="flex items-center gap-2">
+                <span>💬</span> 
+                <a href="https://wa.me/6281121112023" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 font-medium transition-colors">
+                    WhatsApp Chat
+                </a>
+                </li>
           </ul>
         </div>
       </div>
