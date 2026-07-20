@@ -9,7 +9,7 @@ export default function Navbar(): React.JSX.Element {
         {/* LOGO BRAND */}
         <Link href="/" className="flex items-center">
             <img 
-                src="/logo-brand-white.png" 
+                src="/logo-brand-white.jpeg" 
                 alt="Our Vakansie Logo"
                 width="200"            
                 height="80"           
