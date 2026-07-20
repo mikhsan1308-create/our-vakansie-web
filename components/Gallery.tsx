@@ -10,7 +10,7 @@ interface GalleryItem {
 export default function Gallery(): React.JSX.Element {
   const GALLERY_IMAGES: GalleryItem[] = [
     { id: 1, tag: "Private Trip", title: "Keseruan di Pantai Bali", imageUrl: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80" },
-    { id: 2, tag: "Open Trip", title: "Matahari Terbit di Bromo", imageUrl: "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=600&q=80" },
+    { id: 2, tag: "Open Trip", title: "Matahari Terbit di Bromo", imageUrl: "https://images.unsplash.com/photo-1565619109666-b8bfe0e95ceb?auto=format&fit=crop&w=600&q=80" },
     { id: 3, tag: "Gathering", title: "Team Building Perusahaan", imageUrl: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=600&q=80" },
     { id: 4, tag: "Education", title: "Edukasi Budaya di Jogja", imageUrl: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=600&q=80" },
     { id: 5, tag: "Government", title: "Kunjungan Dinas & Studi Banding", imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80" },
